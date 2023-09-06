@@ -10,6 +10,8 @@ class Task(Document):
     class Settings:
         name = "tasks_database"
 
+
+
     class Config:
         schema_extra={
             "task_content": "A sample content",
